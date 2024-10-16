@@ -62,3 +62,13 @@ docker build -t my-docker-app .
 docker images
 ```
 7. Run docker container 
+
+```bash 
+docker run -p 3000:3000 my-docker-app
+```
+
+8. Clean up environment 
+
+```bash 
+docker system prune -a
+```
